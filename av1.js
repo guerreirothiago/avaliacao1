@@ -1,4 +1,3 @@
-/* Operador Ternário */
 // Crie um código que receba dois números e verifique se a soma deles é maior que 20
 let num1 = 15;
 let num2 = 10;
