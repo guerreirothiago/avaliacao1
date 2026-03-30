@@ -59,7 +59,7 @@ console.log(valor1 > 100 || valor2 > 100 ? "Pelo menos um dos valores é maior q
 // Crie um programa que calcule a potência de um número elevado a outro e verifique se o resultado é maior que 1000.
 let base = 5;
 let expoente = 4;
-let potencia = Math.pow(base, expoente);
+let potencia = base * base * base * base;
 console.log(potencia > 1000 ? "O resultado da potência é maior que 1000." : "O resultado da potência não é maior que 1000.");
 
 // Desenvolva uma lógica que verifique se um número é negativo ou positivo.
@@ -98,7 +98,7 @@ console.log(num8 % num9 === 0 ? "O primeiro número é múltiplo do segundo." : 
 // Desenvolva uma lógica que calcule a diferença entre dois números e verifique se ela é maior que 10.
 let num10 = 20;
 let num11 = 5;
-let diferenca = Math.abs(num10 - num11);
+let diferenca = num10 - num11;
 console.log(diferenca > 10 ? "A diferença entre os números é maior que 10." : "A diferença entre os números não é maior que 10.");
 
 // Crie um programa que verifique se uma pessoa pode dirigir (idade maior ou igual a 18 e possuir habilitação).
@@ -127,9 +127,11 @@ let numero7 = 25;
 console.log((numero7 >= 0 && numero7 <= 10) || (numero7 >= 20 && numero7 <= 30) ? "O número está entre 0–10 ou entre 20–30." : "O número não está entre 0–10 nem entre 20–30.");
 
 // Crie um programa com atribuição de um número, calcule o quadrado e verifique se é maior que 50.
-let numero8 = 8;
-let quadrado = Math.pow(numero8, 2);
-console.log(quadrado > 50 ? "O quadrado do número é maior que 50." : "O quadrado do número não é maior que 50.");
+let numero8 = 25;
+let quadrado = numero8 ** 2;
+
+console.log(quadrado > 50 ? quadrado + " é maior que 50" : quadrado + "não é maior que 50")
+
 
 // Desenvolva uma lógica com atribuição de dois números e verifique se são diferentes e ambos maiores que 0.
 let num17 = 5;
